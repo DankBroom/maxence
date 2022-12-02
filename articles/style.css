@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+
+body{
+    background-color: #446e00;
+    color: #fff;
+    font-family: 'Comic Neue', cursive;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 15px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: #7ecc005b;
+    width: 15px;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #7ecc005b;
+    width: 15px;
+    border: 1px solid #7ecc005b;
+    border-radius: 10px;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 75px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 50px;
+    font-size: 25px;
+    transition: .3s;
+}
+nav .onglets a:hover{
+    text-decoration: underline;
+    color: #7ecc00;
+}
+nav .onglets .actual{
+    text-decoration: underline;
+    color: #fff;
+    margin-left: 50px;
+    font-size: 25px;
+    transition: .3s;
+}
+nav .onglets .actual:hover{
+    text-decoration: none;
+    color: #7ecc00;
+}
+nav .onglets .left{
+    margin-left: 10px;
+}
+
+
+
+.toprightimg{
+    margin-top: 50px;
+    background-image: url(/assets/vélo.jpg);
+    background-position: center;
+    background-size: 600px;
+    width: 600px;
+    height: 600px;
+    margin-right: 25px;
+    border-radius: 15px;
+    transform: rotate(6deg);
+}
+.topleft{
+    background-image: url(/assets/code.jpg);
+    background-size: 700px;
+    width: 700px;
+    height: 700px;
+    margin-left: 25px;
+    margin-top: 0px;
+    border-radius: 15px;
+    transform: rotate(-4deg);
+}
+
+
+
+.lasts{
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+
+
+.cardg {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    width:50%;
+    height: 25%;
+    padding: 30px;
+    border: 1px solid #7ecc00;
+    background: #7ecc00;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    transition: .3s;
+    color: #000;
+}
+.cardd {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    width:50%;
+    height: 25%;
+    padding: 30px;
+    border: 1px solid #7ecc00;
+    background: #7ecc00;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    transition: .3s;
+    color: #000;
+}
+.cardg:hover{
+    cursor:pointer;
+    transform: scale(1.08) rotate(5deg);
+}
+.cardd:hover{
+    cursor:pointer;
+    transform: scale(1.08) rotate(-5deg);
+}
+
+
+
+footer{
+    margin-top: 30px;
+}
+footer hr{
+    width: 45%;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+footer a:hover{
+    color: #7ecc00;
+    text-decoration: underline;
+}
+
+
+
+p{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
